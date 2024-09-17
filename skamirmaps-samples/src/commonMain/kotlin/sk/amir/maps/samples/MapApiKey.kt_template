@@ -1,0 +1,3 @@
+package sk.amir.maps.samples
+
+internal const val MapApiKey = ""
