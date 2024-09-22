@@ -1,5 +1,5 @@
-# skamirmaps - compose multiplatform wrapper to work with maps
-**Library skamirmaps ** (the library) builds on top of MapLibre Native libraries. One for iOS and one for Android. Using kotlin interop it was possible to link toward the native libraries without modifying their source code.  
+# skamirmaps - Compose Multiplatform wrapper to work with maps
+**Library skamirmaps** (the library) builds on top of MapLibre Native libraries. One for iOS and one for Android. Using kotlin interop it was possible to link toward the native libraries without modifying their source code.  
 The use of external dependencies is being kept at minimum.  
 [**This Samples repository**](https://github.com/todo) serves as a public documentation of capabilities of the library.
 
@@ -38,4 +38,4 @@ My name is **Amir Hammad**, I'm based in Amsterdam, Netherlands and I'm the crea
 You can reach me at [maps@amir.sk](mailto:maps@amir.sk) or at [Linked in](https://www.linkedin.com/in/amir-sk/)
 
 # License
-This sample repository is licensed under [MIT license](https://opensource.org/license/mit). See LICENSE file for more info.
+This sample repository is licensed under [MIT license](https://opensource.org/license/mit). See [LICENSE](https://github.com/skamirmaps/skamirmaps-samples/blob/main/LICENSE) file for more info.
