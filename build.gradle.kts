@@ -1,3 +1,6 @@
+import org.jetbrains.compose.internal.utils.getLocalProperty
+import java.net.URI
+
 plugins {
     //trick: for the same plugin versions in all sub-modules
     id("com.android.library").version(libs.versions.android).apply(false)
@@ -17,8 +20,19 @@ tasks.register("clean", Delete::class) {
 
 allprojects {
     repositories {
-        mavenLocal()
+        maven {
+            name = "skamirmaps"
+            url = project.getLocalProperty("SKAMIRMAPS_REPO_URL")?.let {
+                URI(it)
+            } ?: error("SKAMIR Maps: Repo URL is not configured properly.")
+            credentials {
+                username = "_json_key_base64"
+                password = project.getLocalProperty("SKAMIRMAPS_REPO_PASSWORD")
+                    ?: error("SKAMIR Maps: Repo password is not confiured properly.")
+            }
+        }
         google()
         mavenCentral()
     }
 }
+
