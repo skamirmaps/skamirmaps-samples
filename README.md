@@ -1,9 +1,9 @@
-# skamirmaps - Compose Multiplatform wrapper to work with maps
-**Library skamirmaps** (the library) builds on top of MapLibre Native libraries. One for iOS and one for Android. Using kotlin interop it was possible to link toward the native libraries without modifying their source code.  
+# SKAMIR Maps - Compose Multiplatform wrapper to work with maps
+**Library SKAMIR Maps** (the library) builds on top of MapLibre Native libraries. One for iOS and one for Android. Using kotlin interop it was possible to link toward the native libraries without modifying their source code.  
 The use of external dependencies is being kept at minimum.  
 [**This Samples repository**](https://github.com/todo) serves as a public documentation of capabilities of the library.
 
-#### ! **This project has a dependency on skamirmaps (The library)**
+#### ! **This project has a dependency on SKAMIR Maps (The library)**
 To get access to the library itself (free of charge) just fill out the following questionaire and further instructions will be provided. 
 
 _**[Request access ->](https://forms.gle/QfNoBa4dh2aTLC1N8)**_
