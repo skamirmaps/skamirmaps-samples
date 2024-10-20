@@ -1,6 +1,6 @@
 [versions]
-activityCompose = "1.9.0"
-android = "8.2.1"
+activityCompose = "1.9.3"
+android = "8.5.2"
 androidPluginAnnotationV9 = "3.0.0"
 core-ktx = "1.13.1"
 jvmTarget = "17"
