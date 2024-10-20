@@ -49,6 +49,7 @@ internal enum class DemoType(val factory: @Composable () -> Unit) {
     UiSettingsDemo({ UiSettingsDemo() }),
     SymbolImagesDemo({ SymbolImagesDemo() }),
     ReloadDemo({ ReloadDemo() }),
+    LayeringOrderDemo({ LayeringOrderDemo() }),
     ;
 
     @Composable
